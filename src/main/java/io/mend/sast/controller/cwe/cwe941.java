@@ -18,22 +18,21 @@ public class cwe941 {
 
     private final Logger logger = LoggerFactory.getLogger(cwe941.class);
 
-    //private String url = "jdbc:h2:mem:testdb;INIT=CREATE SCHEMA IF NOT EXISTS TESTDB";
-    private final String input = "hard-coded";
-
     @GetMapping(value = "/log")
     public void log(HttpServletRequest request) {
         String url = request.getParameter("url");
+        String user = request.getParameter("user");
+        String pass = request.getParameter("pass");
 
-        getJDBCConnection(url);
+        getJDBCConnection(url, user, pass);
     }
 
-    public Connection getJDBCConnection(String url) {
+    public Connection getJDBCConnection(String url, String user, String pass) {
 
         if (JDBCConnection == null) {
             try {
                 Class.forName ("org.h2.Driver");
-                JDBCConnection = DriverManager.getConnection(url, "sa", input); // SINK
+                JDBCConnection = DriverManager.getConnection(url, user, pass); // SINK
             } catch (Exception e) {
                 logger.error("DB error");
             }
