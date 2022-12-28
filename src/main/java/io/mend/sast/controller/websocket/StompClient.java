@@ -1,10 +1,12 @@
 package io.mend.sast.controller.websocket;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.net.*;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.util.Scanner;
+import java.util.concurrent.CountDownLatch;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -21,12 +23,28 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.socket.client.WebSocketClient;
 import org.springframework.web.socket.client.standard.StandardWebSocketClient;
 import org.springframework.web.socket.messaging.WebSocketStompClient;
+import org.glassfish.tyrus.client.ClientManager;
 
 @RestController
 @RequestMapping("/websocket")
 public class StompClient {
 
-//    private static String URL = "ws://localhost:8080/chat/websocket";
+
+    @GetMapping(value = "/connectt")
+    public void logg(HttpServletRequest request) {
+        String url = request.getParameter("url");
+
+        CountDownLatch latch = new CountDownLatch(1);
+        ClientManager client = ClientManager.createClient();
+        try {
+            URI uri = new URI(url);
+            client.connectToServer(ChatClientEndpoint.class, uri);
+            latch.await();
+        } catch (URISyntaxException | InterruptedException |
+                 jakarta.websocket.DeploymentException | IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     @GetMapping(value = "/connect")
     public void log(HttpServletRequest request) {
