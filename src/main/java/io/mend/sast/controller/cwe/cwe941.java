@@ -1,42 +1,65 @@
 package io.mend.sast.controller.cwe;
 
+import io.mend.sast.service.FtpService;
+import io.mend.sast.websocket.WebSocketClientEndpoint;
 import jakarta.servlet.http.HttpServletRequest;
+import org.apache.commons.net.ftp.FTPClient;
+import org.glassfish.tyrus.client.ClientManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.sql.Connection;
+import java.net.URI;
 import java.sql.DriverManager;
 
 @RestController
 @RequestMapping("/cwe941")
 public class cwe941 {
 
-    private static Connection JDBCConnection;
+    private static final Logger logger = LoggerFactory.getLogger(cwe941.class);
 
-    private final Logger logger = LoggerFactory.getLogger(cwe941.class);
+    @Autowired
+    private FtpService ftpService;
 
-    @GetMapping(value = "/log")
-    public void log(HttpServletRequest request) {
+    @GetMapping(value = "/dbConnect")
+    public void dbConnect(HttpServletRequest request) {
         String url = request.getParameter("url");
-        String user = request.getParameter("user");
-        String pass = request.getParameter("pass");
 
-        getJDBCConnection(url, user, pass);
+        try {
+            Class.forName ("org.h2.Driver");
+            DriverManager.getConnection(url, "sa", "password"); // SINK
+        } catch (Exception e) {
+            logger.error("DB error");
+        }
+
     }
 
-    public Connection getJDBCConnection(String url, String user, String pass) {
+    @GetMapping(value = "/ftpConnect")
+    public void ftpConnect(HttpServletRequest request) {
+        String url = request.getParameter("url");
 
-        if (JDBCConnection == null) {
-            try {
-                Class.forName ("org.h2.Driver");
-                JDBCConnection = DriverManager.getConnection(url, user, pass); // SINK
-            } catch (Exception e) {
-                logger.error("DB error");
-            }
+        try {
+            FTPClient ftpClient = ftpService.loginFtp(url, 21, "root", "password"); // SINK
+            ftpService.printTree("/", ftpClient);
+        } catch (Exception e) {
+            logger.error(e.getMessage());
         }
-        return JDBCConnection;
+    }
+
+    @GetMapping(value = "/websocketConnect")
+    public void websocketConnect(HttpServletRequest request) {
+        String url = request.getParameter("url");
+
+        ClientManager client = ClientManager.createClient();
+
+        try {
+            URI uri = new URI(url);
+            client.connectToServer(WebSocketClientEndpoint.class, uri); // SINK
+        } catch (Exception e) {
+            logger.error(e.getMessage());
+        }
     }
 }
