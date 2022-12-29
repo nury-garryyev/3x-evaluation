@@ -1,5 +1,6 @@
 package io.mend.sast.controller.cwe;
 
+import io.mend.sast.service.EchoServer;
 import io.mend.sast.service.FtpService;
 import io.mend.sast.websocket.WebSocketClientEndpoint;
 import jakarta.servlet.http.HttpServletRequest;
@@ -12,7 +13,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.net.URI;
+import java.io.IOException;
+import java.net.*;
 import java.sql.DriverManager;
 
 @RestController
@@ -42,7 +44,7 @@ public class cwe941 {
         String url = request.getParameter("url");
 
         try {
-            FTPClient ftpClient = ftpService.loginFtp(url, 21, "root", "password"); // SINK
+            FTPClient ftpClient = ftpService.loginFtp(url, 21, "root", "password"); // SINK in FtpService
             ftpService.printTree("/", ftpClient);
         } catch (Exception e) {
             logger.error(e.getMessage());
@@ -61,5 +63,24 @@ public class cwe941 {
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
+    }
+
+    @GetMapping(value = "/udpSend")
+    public String udpSend(HttpServletRequest request) throws IOException {
+        String message = request.getParameter("message");
+
+        new EchoServer().start();
+
+        DatagramSocket socket = new DatagramSocket();
+        InetAddress address = InetAddress.getByName("localhost");
+
+        byte[] buf = message.getBytes();
+        DatagramPacket packet = new DatagramPacket(buf, buf.length, address, 4445);
+        socket.send(packet);
+
+        packet = new DatagramPacket(buf, buf.length);
+        socket.receive(packet);
+
+        return new String(packet.getData(), 0, packet.getLength());
     }
 }

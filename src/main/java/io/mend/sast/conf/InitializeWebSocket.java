@@ -16,7 +16,7 @@ public class InitializeWebSocket {
 
     @PostConstruct
     private void InitializeServer() {
-        server = new Server("localhost", 8035, "/folder", null, WebSocketServerEndpoint.class);
+        server = new Server("localhost", 8025, "/folder", null, WebSocketServerEndpoint.class);
 
         try {
             server.start();
