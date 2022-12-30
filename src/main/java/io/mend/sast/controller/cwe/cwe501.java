@@ -23,5 +23,10 @@ public class cwe501 {
         session.setAttribute("input", input);
         session.setAttribute(input, "input");
         session.setAttribute(a, b);
+
+        HttpSession session1 = request.getSession();
+        session1.setAttribute("input", input);
+        session1.setAttribute(input, "input");
+        session1.setAttribute(a, b);
     }
 }
