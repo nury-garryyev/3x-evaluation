@@ -4,7 +4,7 @@ import io.mend.sast.service.EchoServer;
 import io.mend.sast.service.FtpService;
 import io.mend.sast.websocket.WebSocketClientEndpoint;
 import jakarta.servlet.http.HttpServletRequest;
-import org.apache.commons.net.ftp.FTPClient;
+import org.apache.commons.net.ftp.FTPSClient;
 import org.glassfish.tyrus.client.ClientManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -44,7 +44,7 @@ public class cwe941 {
         String url = request.getParameter("url");
 
         try {
-            FTPClient ftpClient = ftpService.loginFtp(url, 21, "root", "password"); // SINK in FtpService
+            FTPSClient ftpClient = ftpService.loginFtp(url, 21, "root", "password"); // SINK in FtpService
             ftpService.printTree("/", ftpClient);
         } catch (Exception e) {
             logger.error(e.getMessage());

@@ -1,7 +1,7 @@
 package io.mend.sast.service;
 
-import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPFile;
+import org.apache.commons.net.ftp.FTPSClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -13,14 +13,14 @@ public class FtpService {
 
     private static final Logger logger = LoggerFactory.getLogger(FtpService.class);
 
-    public FTPClient loginFtp(String host, int port, String username, String password) throws Exception {
-        FTPClient ftpClient = new FTPClient();
+    public FTPSClient loginFtp(String host, int port, String username, String password) throws Exception {
+        FTPSClient ftpClient = new FTPSClient();
         ftpClient.connect(host, port);  // SINK
         ftpClient.login(username, password);
         return ftpClient;
     }
 
-    public void printTree(String path, FTPClient ftpClient) throws Exception {
+    public void printTree(String path, FTPSClient ftpClient) throws Exception {
         for (FTPFile ftpFile : ftpClient.listFiles(path)) {
             logger.debug(String.format("[printTree][%d]\n", System.currentTimeMillis()));
             logger.debug(String.format("[printTree][%d] Get name : %s \n", System.currentTimeMillis(), ftpFile.getName()));
