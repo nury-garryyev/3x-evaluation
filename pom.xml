@@ -15,7 +15,7 @@
     <description>Mend Sast 3x Evaluation</description>
     <properties>
         <java.version>17</java.version>
-        <slf4j.version>2.0.5</slf4j.version>
+        <slf4j.version>2.0.6</slf4j.version>
     </properties>
     <dependencies>
         <dependency>
