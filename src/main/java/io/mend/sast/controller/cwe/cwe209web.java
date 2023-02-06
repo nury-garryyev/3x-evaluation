@@ -60,8 +60,8 @@ public class cwe209web {
                 UserSearchService.getUserByNameUnsafe(id);
             } catch (SQLException e) {
 
-                // Unsafe: The SQL exception may contain sensitive data,
-                // and this exception type is exposed to the user in GlobalExceptionHandler.
+
+                // Safe: The hardcoded exception message
                 throw new DatabaseException(ApplicationConstants.USER_ERROR);
             }
         }

@@ -93,4 +93,17 @@ public class UserSearchService {
 
         return null;
     }
+
+    public static User getUserById(int id) throws SQLException{
+        String sqlQuery = "SELECT * FROM \"user\" WHERE id=" + String.valueOf(id);
+
+        Statement statement = JDBCConfiguration.getJDBCConnection().createStatement();
+        ResultSet rs = statement.executeQuery(sqlQuery);
+
+        if(rs.next()){
+            return new User(rs.getString("name"), rs.getInt("role"));
+        }
+
+        return null;
+    }
 }

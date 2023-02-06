@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -20,7 +21,6 @@ public class XssController {
     @GetMapping(value = "/safeInput")
     public void safeInput(HttpServletRequest request, HttpServletResponse response) throws IOException {
         long safe = Long.parseLong(request.getParameter("input"));
-
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println(request.getParameter("input"));

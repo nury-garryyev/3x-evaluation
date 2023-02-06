@@ -1,32 +1,47 @@
 package io.mend.sast.controller.cwe;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.env.Environment;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@Controller
 @RequestMapping("/cwe497")
 public class cwe497 {
+    
+    @GetMapping("/system_properties")
+    public ResponseEntity<Map<Object, Object>> getSystemProperties() {
+        Map<Object, Object> properties = new HashMap<>(System.getProperties());
+        return new ResponseEntity<>(properties, HttpStatus.OK); // SINK
+    }
 
-    @Autowired
-    private Environment env;
+    @GetMapping("/system_env")
+    public ResponseEntity<Map<String, Object>> getEnvironmentProperties() {
+        Map<String, Object> properties = new HashMap<>();
+        for (Map.Entry<String, String> entry : System.getenv().entrySet()) {
+            properties.put(entry.getKey(), entry.getValue());
+        }
+        return new ResponseEntity<>(properties, HttpStatus.OK); // SINK
+    }
 
-    @Value("${prop.key}")
-    private String propKey;
-
-    private static final Logger logger = LoggerFactory.getLogger(cwe497.class);
-
-    @GetMapping(value = "/info")
-    public String info() {
-
-
-        String path = env.getProperty("prop.key");
-
-        return propKey + path;
+    @GetMapping("/stack_trace")
+    public ResponseEntity<String> exposeStackTrace(HttpServletRequest request, HttpServletResponse response){
+        try {
+            throw new Exception();    
+        } catch (Exception e) {
+            StringWriter stringWriter = new StringWriter();
+            e.printStackTrace(new PrintWriter(stringWriter));
+            String stackTrace = stringWriter.toString();
+            return new ResponseEntity<>(stackTrace, HttpStatus.INTERNAL_SERVER_ERROR); // SINK
+        }
     }
 }

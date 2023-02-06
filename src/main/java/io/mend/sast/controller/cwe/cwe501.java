@@ -21,5 +21,9 @@ public class cwe501 {
 
         sessionRequest.setAttribute("input", input);
         sessionRequest.setAttribute(input, "input");
+
+        if(input.equalsIgnoreCase("safe")) {
+            sessionRequest.setAttribute(input, input);
+        }
     }
 }
