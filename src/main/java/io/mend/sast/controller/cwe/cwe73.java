@@ -117,7 +117,7 @@ public class cwe73 {
             File dest = new File(UPLOAD_DIRECTORY + safe_filename); //SANITIZER
             file.transferTo(dest);
 
-        } catch (IOException e) {
+        } catch (Exception e) {
             return ResponseEntity.badRequest().body("Failed to save file: " + e.getMessage());
         }
 
