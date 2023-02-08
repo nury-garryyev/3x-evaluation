@@ -6,6 +6,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -45,12 +46,12 @@ public class cwe565 {
     }
 
     @GetMapping(value = "/unsafe/get_user")
-    public ResponseEntity<String> getUserUnsafe(
+    public ResponseEntity<String> getUserSafe(
             HttpServletRequest request, 
             HttpServletResponse response, 
             @CookieValue(value="user_id") String user_id //SOURCE
         ) throws Exception {
-        User user = UserSearchService.getUserById(Integer.parseInt(user_id)); //SINK
+        User user = UserSearchService.getUserById(Integer.parseInt(user_id));
         
         if (user == null){
             return new ResponseEntity<String>("User not found", HttpStatus.NOT_FOUND);
@@ -59,7 +60,7 @@ public class cwe565 {
     }
 
     @GetMapping(value = "/unsafe/get_user2")
-    public ResponseEntity<String> getUserUnsafe2( HttpServletRequest request, HttpServletResponse response) throws Exception {
+    public ResponseEntity<String> getUserSafe2( HttpServletRequest request, HttpServletResponse response) throws Exception {
         String user_id = "";
         Cookie[] cookies = request.getCookies();
         
@@ -69,7 +70,7 @@ public class cwe565 {
             }
         }
         
-        User user = UserSearchService.getUserById(Integer.parseInt(user_id)); //SINK
+        User user = UserSearchService.getUserById(Integer.parseInt(user_id));
         
         if (user == null){
             return new ResponseEntity<String>("User not found", HttpStatus.NOT_FOUND);
@@ -100,10 +101,16 @@ public class cwe565 {
         return "create_user";
     }
 
+
+    @Autowired
+    JDBCConfiguration jDBCConfiguration;
+
     @GetMapping(value = "/unsafe/get_user3")
     public String getUserUnsafe3(HttpServletRequest request, HttpServletResponse response) throws Exception{
         String user_id = "";
         Cookie[] cookies = request.getCookies();
+
+        Statement statement = jDBCConfiguration.getJDBCConnection2().createStatement();
         
         for(Cookie c : cookies) {
             if(c.getName().equals("user_id")){
@@ -115,7 +122,7 @@ public class cwe565 {
         String sqlQuery = "SELECT * FROM \"user\" WHERE id=" + user_id;
         System.out.println(user_id);
         System.out.println(sqlQuery);
-        Statement statement = JDBCConfiguration.getJDBCConnection().createStatement();
+
         
         ResultSet rs = statement.executeQuery(sqlQuery); // SINK
         ResultSetMetaData metaData = rs.getMetaData();

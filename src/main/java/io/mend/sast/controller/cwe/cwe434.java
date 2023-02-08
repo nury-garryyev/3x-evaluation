@@ -47,7 +47,7 @@ public class cwe434 {
             if (!uploadDirectory.exists()) {
                 uploadDirectory.mkdirs();
             }
-            File dest = new File(ApplicationConstants.UPLOAD_DIRECTORY + fileName); //SANITIZER
+            File dest = new File(ApplicationConstants.UPLOAD_DIRECTORY + fileName);
             file.transferTo(dest);
         } catch (IOException e) {
             return new ResponseEntity<>("Failed to save file", HttpStatus.BAD_REQUEST);

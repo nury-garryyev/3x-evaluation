@@ -76,7 +76,7 @@ public class cwe73 {
         return ResponseEntity.ok().body("File uploaded successfully");
     }
 
-    @PostMapping("/unsafe/upload")
+    @PostMapping("/unsafe/upload3")
     public ResponseEntity<String> handleUnsafeFileUpload3(HttpServletRequest request, HttpServletResponse response, @RequestParam("file") MultipartFile file){
         String fileName = file.getOriginalFilename();
         Path path = Paths.get(UPLOAD_DIRECTORY + fileName);       
@@ -114,10 +114,10 @@ public class cwe73 {
                 throw new IOException();
             }
 
-            File dest = new File(UPLOAD_DIRECTORY + safe_filename); //SANITIZER
+            File dest = new File(UPLOAD_DIRECTORY + safe_filename);
             file.transferTo(dest);
 
-        } catch (Exception e) {
+        } catch (IOException e) {
             return ResponseEntity.badRequest().body("Failed to save file: " + e.getMessage());
         }
 
