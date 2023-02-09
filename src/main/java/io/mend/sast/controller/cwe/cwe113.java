@@ -33,7 +33,7 @@ public class cwe113 {
     @GetMapping
     @RequestMapping("/safe/referer")
     public ResponseEntity<String> handleSafe1(HttpServletRequest request, HttpServletResponse response, @RequestParam String referer) {
-        String sanitized_referer = referer.replaceAll("\r\n", ""); //SANITIZER
+        String sanitized_referer = referer.replaceAll("c", "d");
         response.setHeader("Referer", sanitized_referer);
         return ResponseEntity.ok().body("Referer set");
     }
@@ -41,7 +41,7 @@ public class cwe113 {
     @GetMapping
     @RequestMapping("/safe/language")
     public ResponseEntity<String> handleSafe2(HttpServletRequest request, HttpServletResponse response, @RequestParam String lang) {
-        String sanitized_lang = lang.replaceAll("\r\n", ""); //SANITIZER
+        String sanitized_lang = lang.replaceAll("a", "b");
         Cookie cookie = new Cookie("lang", sanitized_lang);
         cookie.setPath("/");
         response.addCookie(cookie);
