@@ -62,6 +62,4 @@ public class cwe113 {
         response.addCookie(cookie);
         return ResponseEntity.ok().body("Language set");
     }
-
-
 }
