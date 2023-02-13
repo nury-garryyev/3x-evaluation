@@ -26,22 +26,9 @@ public class cwe497 {
 
     @GetMapping("/system_env")
     public ResponseEntity<Map<String, Object>> getEnvironmentProperties() {
-        Map<String, Object> properties = new HashMap<>();
-        for (Map.Entry<String, String> entry : System.getenv().entrySet()) {
-            properties.put(entry.getKey(), entry.getValue());
-        }
+        Map<String, Object> properties = new HashMap<>(System.getenv());
         return new ResponseEntity<>(properties, HttpStatus.OK); // SINK
     }
 
-    @GetMapping("/stack_trace")
-    public ResponseEntity<String> exposeStackTrace(HttpServletRequest request, HttpServletResponse response){
-        try {
-            throw new Exception();    
-        } catch (Exception e) {
-            StringWriter stringWriter = new StringWriter();
-            e.printStackTrace(new PrintWriter(stringWriter));
-            String stackTrace = stringWriter.toString();
-            return new ResponseEntity<>(stackTrace, HttpStatus.INTERNAL_SERVER_ERROR); // SINK
-        }
-    }
+
 }
