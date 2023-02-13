@@ -1,5 +1,7 @@
 package io.mend.sast.controller.cwe;
 
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.Statement;
@@ -25,6 +27,24 @@ import jakarta.servlet.http.HttpServletResponse;
 @Controller
 @RequestMapping("/cwe565")
 public class cwe565 {
+
+    @GetMapping(value = "/unsafe2")
+    public void unsafe2(HttpServletRequest request, HttpServletResponse response) throws IOException {
+
+        String input = null;
+
+        Cookie[] cookies = request.getCookies();
+
+        for (Cookie c : cookies) {
+            if (c.getName().equals("input")) {
+                input = c.getValue();
+            }
+        }
+
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+        out.println(input); // XSS Sink
+    }
 
     @GetMapping(value = "/get_cookie/{user_id}")
     public ResponseEntity<String> setCookieUnsafe(HttpServletRequest request, HttpServletResponse response, @PathVariable int user_id) throws Exception {
