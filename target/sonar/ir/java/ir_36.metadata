@@ -1,5 +1,0 @@
-io.mend.sast.controller.cwe.cwe565#getUserUnsafe3(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)Ljava/lang/String;
-java.util.ArrayList#<init>()V
-java.lang.String#equals(Ljava/lang/Object;)Z
-java.util.ArrayList#instance-init#
-io.mend.sast.conf.JDBCConfiguration#getJDBCConnection()Ljava/sql/Connection;

@@ -1,71 +1,0 @@
-
-àio.mend.sast.service.FtpService#loginFtp(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)Lorg/apache/commons/net/ftp/FTPSClient;o
-eD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/FtpService.java ("1*¿
-1o
-eD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/FtpService.java (/»≈
-o
-eD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/FtpService.java# (-+
-%0%org.apache.commons.net.ftp.FTPSClient"%org.apache.commons.net.ftp.FTPSClientˆ
-Û
-o
-eD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/FtpService.java (/
-%1"/org.apache.commons.net.ftp.FTPSClient#<init>()V*I
-
-__unknown_file (-
-+
-%0%org.apache.commons.net.ftp.FTPSClient˘
-ˆ
-o
-eD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/FtpService.java (02
-	ftpClient%org.apache.commons.net.ftp.FTPSClient"__id*I
-
-__unknown_file (-
-+
-%0%org.apache.commons.net.ftp.FTPSClientèå
-o
-eD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/FtpService.java (%
-
-%2void"Aorg.apache.commons.net.SocketClient#connect(Ljava/lang/String;I)V*P
-
-__unknown_file (4
-2
-	ftpClient%org.apache.commons.net.ftp.FTPSClient*6
-
-__unknown_file (
-
-hostjava.lang.String*"
-
-__unknown_file (
-""2connect(Ljava/lang/String;I)Õ 
-o
-eD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/FtpService.java (+
-%3boolean"Qorg.apache.commons.net.ftp.FTPClient#login(Ljava/lang/String;Ljava/lang/String;)Z*P
-
-__unknown_file (4
-2
-	ftpClient%org.apache.commons.net.ftp.FTPSClient*:
-
-__unknown_file (
-
-usernamejava.lang.String*:
-
-__unknown_file (
-
-passwordjava.lang.String2+login(Ljava/lang/String;Ljava/lang/String;)"ß
-o
-eD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/FtpService.java (4
-2
-	ftpClient%org.apache.commons.net.ftp.FTPSClient:ã
-o
-eD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/FtpService.java (+
-hostjava.lang.String: 
-
-__unknown_file (
-"":è
-o
-eD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/FtpService.java6 (F
-usernamejava.lang.String:è
-o
-eD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/FtpService.javaG (V
-passwordjava.lang.StringB#!
-io.mend.sast.service.FtpServiceH

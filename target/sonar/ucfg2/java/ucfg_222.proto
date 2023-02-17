@@ -1,244 +1,0 @@
-
-èio.mend.sast.controller.cwe.cwe73#handleUnsafeFileUpload2(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Lorg/springframework/web/multipart/MultipartFile;)Lorg/springframework/http/ResponseEntity;q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java>" >(9"startingBlock*²	
-startingBlockr
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java>9 >(°
-­
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java= =(#
-%16"
-__annotate*S
-
-__unknown_file (75
-3org.springframework.web.bind.annotation.PostMapping*P
-
-__unknown_file (4
-2
-request'jakarta.servlet.http.HttpServletRequestÝ
-Ú
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java>M >(T2
-request'jakarta.servlet.http.HttpServletRequest"__annotation*#
-
-__unknown_file (
-
-%16²
-¯
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java= =(#
-%17"
-__annotate*S
-
-__unknown_file (75
-3org.springframework.web.bind.annotation.PostMapping*R
-
-__unknown_file (6
-4
-response(jakarta.servlet.http.HttpServletResponseß
-Ü
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java>j >(r4
-response(jakarta.servlet.http.HttpServletResponse"__annotation*#
-
-__unknown_file (
-
-%17*
-9*Ó
-4q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaG G(+º
-·
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaG G(+
-bytesbyte[]"__id*+
-
-__unknown_file (
-
-%10byte[]˜•
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaH H(
-%11void"java.io.OutputStream#write([B)V*8
-
-__unknown_file (
-
-osjava.io.OutputStream*-
-
-__unknown_file (
-
-bytesbyte[]2	write([B)*
-1*ù
-5q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaF F(:Ò
-Ï
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaF F(:
-osjava.io.OutputStream"__id*8
-
-__unknown_file (
-
-%9java.io.OutputStream¦£
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaG G(*
-%10byte[]"<org.springframework.web.multipart.MultipartFile#getBytes()[B*U
-
-__unknown_file (9
-7
-file/org.springframework.web.multipart.MultipartFile2
-getBytes()*
-4*ë
-6q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaF F($í
-ê
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaF F(:
-%9java.io.OutputStream"jjava.nio.file.Files#newOutputStream(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/OutputStream;*3
-
-__unknown_file ("
-java.nio.file.Files*8
-
-__unknown_file (
-
-pathjava.nio.file.Path*
-5*×
-8q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaC C(!å
-â
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaC C(.9
-%53org.springframework.http.ResponseEntity$BodyBuilder"iorg.springframework.http.ResponseEntity#badRequest()Lorg/springframework/http/ResponseEntity$BodyBuilder;*G
-
-__unknown_file (+")
-'org.springframework.http.ResponseEntity¶
-³
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaCe C(w
-%6java.util.List"__id*"
-
-__unknown_file (
-""Î
-Ë
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaC4 C(w
-%7java.lang.String"__concat*¥
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaC4 C(b0.
-,Invalid file extension. Allowed extensions: *‹
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaCe C(w
-
-%6java.util.ListÅÂ
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaC C(x-
-%8'org.springframework.http.ResponseEntity"uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*W
-
-__unknown_file (;
-9
-%53org.springframework.http.ResponseEntity$BodyBuilder*4
-
-__unknown_file (
-
-%7java.lang.String2body(Ljava/lang/Object;)"¤
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaC C(y/
--
-%8'org.springframework.http.ResponseEntity*ž
-9q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java? ?(ÕÒ
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java? ?(4
-%0java.lang.String"Worg.springframework.web.multipart.MultipartFile#getOriginalFilename()Ljava/lang/String;*U
-
-__unknown_file (9
-7
-file/org.springframework.web.multipart.MultipartFile2getOriginalFilename()Ð
-Í
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java? ?(5
-fileNamejava.lang.String"__id*4
-
-__unknown_file (
-
-%0java.lang.String¸
-µ
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java@ @(.
-%1java.lang.String"__id*"
-
-__unknown_file (
-""¾
-»
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java@ @(9
-%2java.lang.String"__concat*
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java@ @(.
-
-%1java.lang.String*“
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java@1 @(9
-
-fileNamejava.lang.StringÏ
-Ì
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java@ @(:
-%3java.nio.file.Path"Rjava.nio.file.Paths#get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;*3
-
-__unknown_file ("
-java.nio.file.Paths*4
-
-__unknown_file (
-
-%2java.lang.StringÐ
-Í
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java@ @(;
-pathjava.nio.file.Path"__id*6
-
-__unknown_file (
-
-%3java.nio.file.PathÑ
-Î
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaB B(+
-%4boolean"Kio.mend.sast.controller.cwe.cwe73#isValidFileExtension(Ljava/lang/String;)Z*A
-
-__unknown_file (%#
-!io.mend.sast.controller.cwe.cwe73*:
-
-__unknown_file (
-
-fileNamejava.lang.String*
-6
-8*Ï
-1q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaL L(Þ
-Û
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaL L(":
-%143org.springframework.http.ResponseEntity$BodyBuilder"aorg.springframework.http.ResponseEntity#ok()Lorg/springframework/http/ResponseEntity$BodyBuilder;*G
-
-__unknown_file (+")
-'org.springframework.http.ResponseEntityÍÊ
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaL L(E.
-%15'org.springframework.http.ResponseEntity"uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*X
-
-__unknown_file (<
-:
-%143org.springframework.http.ResponseEntity$BodyBuilder*:
-
-__unknown_file (
-File uploaded successfully2body(Ljava/lang/Object;)"¥
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.javaL L(F0
-.
-%15'org.springframework.http.ResponseEntity:§
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java>: >(U2
-request'jakarta.servlet.http.HttpServletRequest:©
-q
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java>V >(s4
-response(jakarta.servlet.http.HttpServletResponse:­
-r
-gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java>t >(œ7
-file/org.springframework.web.multipart.MultipartFileB%#
-!io.mend.sast.controller.cwe.cwe73H

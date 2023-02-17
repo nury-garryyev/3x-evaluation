@@ -1,24 +1,0 @@
-
-\io.mend.sast.controller.InfiniteLoopController#method1(Ljava/lang/String;)Ljava/lang/String;~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/InfiniteLoopController.java ("1*¥
-1~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/InfiniteLoopController.java (‚
-ÿ
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/InfiniteLoopController.java (
-%0java.lang.String"\io.mend.sast.controller.InfiniteLoopController#method2(Ljava/lang/String;)Ljava/lang/String;*N
-
-__unknown_file (20
-.io.mend.sast.controller.InfiniteLoopController*7
-
-__unknown_file (
-
-inputjava.lang.String"š
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/InfiniteLoopController.java (
-
-%0java.lang.String:›
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/InfiniteLoopController.java ('
-inputjava.lang.StringB20
-.io.mend.sast.controller.InfiniteLoopController

@@ -1,2 +1,0 @@
-io.mend.sast.controller.ManySourceController#safe4003(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)V
-java.lang.Long#parseLong(Ljava/lang/String;)J

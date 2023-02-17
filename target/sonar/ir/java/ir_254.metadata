@@ -1,4 +1,0 @@
-io.mend.sast.service.UserSearchService#getUserByNameUnsafe2(Ljava/lang/String;)Lio/mend/sast/model/User;
-io.mend.sast.model.User#instance-init#
-io.mend.sast.conf.JDBCConfiguration#getJDBCConnection()Ljava/sql/Connection;
-io.mend.sast.model.User#<init>(Ljava/lang/String;)V

@@ -1,2 +1,0 @@
-io.mend.sast.controller.cwe.mail_relay#instance-init#
-io.mend.sast.util.MailUtil#getMailSender()Lorg/springframework/mail/javamail/JavaMailSender;

@@ -1,1 +1,0 @@
-io.mend.sast.controller.XssController#safeObject2(Lio/mend/sast/model/SafeObject;Ljakarta/servlet/http/HttpServletResponse;)V

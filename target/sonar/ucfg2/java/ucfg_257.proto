@@ -1,320 +1,0 @@
-
-¥io.mend.sast.controller.cwe.mail_relay#sendMailUnsafe2(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)Lorg/springframework/http/ResponseEntity;v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java:" :(1"startingBlock*º
-13v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java@ @(7Â
-‚
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java@ @(7
-messagejavax.mail.Message"__id*C
-
-__unknown_file ('
-%
-%4javax.mail.internet.MimeMessageΩ
-∫
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaA0 A(R
-%6java.lang.String"__id*"
-
-__unknown_file (
-""À»
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaA  A(/)
-%7#javax.mail.internet.InternetAddress"#javax.mail.internet.InternetAddress¡
-æ
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaA A(S
-%8"?javax.mail.internet.InternetAddress#<init>(Ljava/lang/String;)V*G
-
-__unknown_file (+
-)
-%7#javax.mail.internet.InternetAddress*4
-
-__unknown_file (
-
-%6java.lang.String*
-12*ç
-14v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java@. @(5√¿
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java@" @(-%
-%4javax.mail.internet.MimeMessage"javax.mail.internet.MimeMessage¬
-ø
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java@ @(6
-%5"=javax.mail.internet.MimeMessage#<init>(Ljavax/mail/Session;)V*C
-
-__unknown_file ('
-%
-%4javax.mail.internet.MimeMessage*;
-
-__unknown_file (
-
-sessionjavax.mail.Session*
-13*„
-15v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java; ;(+≠™
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java; ;()
-%0java.util.Properties"java.util.Properties€
-ÿ
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java; ;(+
-%1"java.util.Properties#<init>()V*8
-
-__unknown_file (
-
-%0java.util.Properties⁄
-◊
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java; ;(,
-propsjava.util.Properties"__id*8
-
-__unknown_file (
-
-%0java.util.Propertiesº
-π
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java< <(7
-%2java.lang.Object"__mapSet*;
-
-__unknown_file (
-
-propsjava.util.Properties*.
-
-__unknown_file (
-mail.smtp.host*0
-
-__unknown_file (
-smtp.example.comŸ
-÷
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java= =(;
-%3javax.mail.Session"Qjavax.mail.Session#getDefaultInstance(Ljava/util/Properties;)Ljavax/mail/Session;*2
-
-__unknown_file ("
-javax.mail.Session*;
-
-__unknown_file (
-
-propsjava.util.Propertiesÿ
-’
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java= =(<
-sessionjavax.mail.Session"__id*6
-
-__unknown_file (
-
-%3javax.mail.Session*
-14*®
-3v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaH H(E"™
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaH H(E0
-.
-%20'org.springframework.http.ResponseEntity*À	
-startingBlockv
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java:1 :(kµ
-≤
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java9 9('
-%25"
-__annotate*S
-
-__unknown_file (75
-3org.springframework.web.bind.annotation.PostMapping*P
-
-__unknown_file (4
-2
-request'jakarta.servlet.http.HttpServletRequest‚
-ﬂ
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java:E :(L2
-request'jakarta.servlet.http.HttpServletRequest"__annotation*#
-
-__unknown_file (
-
-%25∑
-¥
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java9 9('
-%26"
-__annotate*S
-
-__unknown_file (75
-3org.springframework.web.bind.annotation.PostMapping*R
-
-__unknown_file (6
-4
-response(jakarta.servlet.http.HttpServletResponse‰
-·
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java:b :(j4
-response(jakarta.servlet.http.HttpServletResponse"__annotation*#
-
-__unknown_file (
-
-%26*
-15*‚
-4v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaH( H(4—
-Œ
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaH6 H(C*
-%19#org.springframework.http.HttpStatus"__id*"
-
-__unknown_file (
-""‘—
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaH H('.
-%20'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity¥
-±
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaH H(D
-%21"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*L
-
-__unknown_file (0
-.
-%20'org.springframework.http.ResponseEntity**
-
-__unknown_file (
-
-Email sent*H
-
-__unknown_file (,
-*
-%19#org.springframework.http.HttpStatus*
-3*∞
-5v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaG G(≠
-™
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaG G(#
-%18void"0javax.mail.Transport#send(Ljavax/mail/Message;)V*4
-
-__unknown_file ("
-javax.mail.Transport*;
-
-__unknown_file (
-
-messagejavax.mail.Message*
-4* 
-6v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaF F(?«ƒ
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaF F(?
-%17void",javax.mail.Part#setText(Ljava/lang/String;)V*;
-
-__unknown_file (
-
-messagejavax.mail.Message*5
-
-__unknown_file (
-
-%16java.lang.String2setText(Ljava/lang/String;)*
-5*ä
-7v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaF F(áÑ
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaF F(>
-%16java.lang.String"Qjakarta.servlet.ServletRequest#getParameter(Ljava/lang/String;)Ljava/lang/String;*P
-
-__unknown_file (4
-2
-request'jakarta.servlet.http.HttpServletRequest**
-
-__unknown_file (
-
-email_body2 getParameter(Ljava/lang/String;)*
-6*—
-8v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaE E(ŒÀ
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaE E(5
-%15void"2javax.mail.Message#setSubject(Ljava/lang/String;)V*;
-
-__unknown_file (
-
-messagejavax.mail.Message*3
-
-__unknown_file (
-Custom Notification2setSubject(Ljava/lang/String;)*
-7*˘
-9v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaB D(ˆÛ
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaB D(
-%14void"Xjavax.mail.Message#setRecipient(Ljavax/mail/Message$RecipientType;Ljavax/mail/Address;)V*;
-
-__unknown_file (
-
-messagejavax.mail.Message*E
-
-__unknown_file ()
-'
-%10 javax.mail.Message$RecipientType*H
-
-__unknown_file (,
-*
-%12#javax.mail.internet.InternetAddress2DsetRecipient(Ljavax/mail/Message$RecipientType;Ljavax/mail/Address;)*
-8*ó
-10v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaC C(?Ã…
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaC C(#*
-%12#javax.mail.internet.InternetAddress"#javax.mail.internet.InternetAddressƒ
-¡
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaC C(?
-%13"?javax.mail.internet.InternetAddress#<init>(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-%12#javax.mail.internet.InternetAddress*5
-
-__unknown_file (
-
-%11java.lang.String*
-9*’
-11v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaB B(Œ
-À
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaB! B(9'
-%10 javax.mail.Message$RecipientType"__id*"
-
-__unknown_file (
-""ˇ¸
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaC$ C(>
-%11java.lang.String"Qjakarta.servlet.ServletRequest#getParameter(Ljava/lang/String;)Ljava/lang/String;*P
-
-__unknown_file (4
-2
-request'jakarta.servlet.http.HttpServletRequest*"
-
-__unknown_file (
-to2 getParameter(Ljava/lang/String;)*
-10*‰
-12v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaA A(Tﬂ‹
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.javaA A(T
-
-%9void"1javax.mail.Message#setFrom(Ljavax/mail/Address;)V*;
-
-__unknown_file (
-
-messagejavax.mail.Message*G
-
-__unknown_file (+
-)
-%7#javax.mail.internet.InternetAddress2setFrom(Ljavax/mail/Address;)*
-11:¨
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java:2 :(M2
-request'jakarta.servlet.http.HttpServletRequest:Æ
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/mail_relay.java:N :(j4
-response(jakarta.servlet.http.HttpServletResponseB*(
-&io.mend.sast.controller.cwe.mail_relayH

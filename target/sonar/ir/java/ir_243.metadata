@@ -1,3 +1,0 @@
-io.mend.sast.controller.cwe.cwe319#SMTPClient()V
-org.apache.commons.net.smtp.SMTPClient#instance-init#
-org.apache.commons.net.smtp.SMTPClient#<init>()V

@@ -1,3 +1,0 @@
-io.mend.sast.controller.cwe.cwe209web#handleException(Lio/mend/sast/exception/DatabaseException;)Lorg/springframework/web/servlet/ModelAndView;
-org.springframework.web.servlet.ModelAndView#<init>()V
-org.springframework.web.servlet.ModelAndView#instance-init#

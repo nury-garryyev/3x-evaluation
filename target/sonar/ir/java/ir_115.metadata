@@ -1,4 +1,0 @@
-io.mend.sast.controller.cwe.cwe400_sleep#hello(J)V
-java.util.concurrent.Executors#newScheduledThreadPool(I)Ljava/util/concurrent/ScheduledExecutorService;
-java.util.concurrent.atomic.AtomicInteger#instance-init#
-java.util.concurrent.atomic.AtomicInteger#<init>(I)V

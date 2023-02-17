@@ -1,20 +1,0 @@
-
-\io.mend.sast.util.MailUtil#getMailSender()Lorg/springframework/mail/javamail/JavaMailSender;j
-`D:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/util/MailUtil.java
-! 
-(."1*˜
-1j
-`D:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/util/MailUtil.java (ý
-ú
-j
-`D:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/util/MailUtil.java (6
-%00org.springframework.mail.javamail.JavaMailSender"__id*N
-
-__unknown_file (2*0
-io.mend.sast.util.MailUtil"
-javaMailSender"¦
-j
-`D:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/util/MailUtil.java (8
-6
-%00org.springframework.mail.javamail.JavaMailSenderB"
-io.mend.sast.util.MailUtilH

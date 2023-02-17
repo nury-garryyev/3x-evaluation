@@ -1,3 +1,0 @@
-io.mend.sast.controller.cwe.cwe209web#handleException(Lio/mend/sast/exception/AnotherException;Ljakarta/servlet/http/HttpServletResponse;)V
-org.springframework.http.HttpStatus#value()I
-io.mend.sast.util.Utils#getRandomNumber(I)I

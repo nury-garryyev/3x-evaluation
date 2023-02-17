@@ -1,3 +1,0 @@
-io.mend.sast.controller.cwe.cwe319#telnet()V
-org.apache.commons.net.telnet.TelnetClient#instance-init#
-org.apache.commons.net.telnet.TelnetClient#<init>()V

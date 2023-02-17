@@ -1,2 +1,0 @@
-io.mend.sast.controller.cwe.cwe400_redos#regex(Lio/mend/sast/model/Credentials;)V
-java.util.regex.Pattern#matches(Ljava/lang/String;Ljava/lang/CharSequence;)Z

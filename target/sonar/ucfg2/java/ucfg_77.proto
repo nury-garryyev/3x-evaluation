@@ -1,136 +1,0 @@
-
-hio.mend.sast.controller.cwe.cwe209stackTrace#exposeStackTrace()Lorg/springframework/http/ResponseEntity;|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java" (2"8*è	
-2|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (8Ý
-Ú
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (8
-
-stackTracejava.lang.String"__id*4
-
-__unknown_file (
-
-%7java.lang.StringÖ
-Ó
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java4 (T)
-%8#org.springframework.http.HttpStatus"__id*"
-
-__unknown_file (
-""ÙÖ
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java ('-
-%9'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityÊ
-Ç
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (U
-%10"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*K
-
-__unknown_file (/
--
-%9'org.springframework.http.ResponseEntity*<
-
-__unknown_file ( 
-
-
-stackTracejava.lang.String*G
-
-__unknown_file (+
-)
-%8#org.springframework.http.HttpStatus*
-1*¥
-3|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java  (,œ™
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java  (7
-%7java.lang.String"1java.io.StringWriter#toString()Ljava/lang/String;*B
-
-__unknown_file (&
-$
-stringWriterjava.io.StringWriter2
-toString()*
-2*ì
-4|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (<ãà
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (<
-
-%6void";java.lang.Throwable#printStackTrace(Ljava/io/PrintWriter;)V*6
-
-__unknown_file (
-
-ejava.lang.Exception*7
-
-__unknown_file (
-
-%4java.io.PrintWriter2&printStackTrace(Ljava/io/PrintWriter;)*
-3*Ú
-5|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (;ç
-ä
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (;$
-stringWriterjava.io.StringWriter"__id*8
-
-__unknown_file (
-
-%2java.io.StringWriter±®
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java" (-
-%4java.io.PrintWriter"java.io.PrintWriter³
-°
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (;
-%5"-java.io.PrintWriter#<init>(Ljava/io/Writer;)V*7
-
-__unknown_file (
-
-%4java.io.PrintWriter*B
-
-__unknown_file (&
-$
-stringWriterjava.io.StringWriter*
-4*è
-6|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (Å
-Â
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (
-ejava.lang.Exception"__id*"
-
-__unknown_file (
-""³°
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java, (8
-%2java.io.StringWriter"java.io.StringWriterá
-Þ
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java( (:
-%3"java.io.StringWriter#<init>()V*8
-
-__unknown_file (
-
-%2java.io.StringWriter*
-5*œ
-8|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (!±®
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (
-%0java.lang.Exception"java.lang.Exceptionß
-Ü
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (!
-%1"java.lang.Exception#<init>()V*7
-
-__unknown_file (
-
-%0java.lang.Exception*
-6*³
-1|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (V"¯
-|
-rD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe209stackTrace.java (V/
--
-%9'org.springframework.http.ResponseEntityB0.
-,io.mend.sast.controller.cwe.cwe209stackTraceH

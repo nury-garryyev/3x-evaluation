@@ -1,2 +1,0 @@
-io.mend.sast.controller.InfiniteLoopController#unsafe(Ljava/lang/String;Ljakarta/servlet/http/HttpServletResponse;)V
-io.mend.sast.controller.InfiniteLoopController#method1(Ljava/lang/String;)Ljava/lang/String;

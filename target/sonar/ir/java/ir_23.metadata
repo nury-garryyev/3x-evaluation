@@ -1,4 +1,0 @@
-io.mend.sast.controller.GeneralSanitizerController#safe6(Ljava/lang/String;)V
-io.mend.sast.controller.GeneralSanitizerController#sqli(Ljava/lang/String;)V
-java.lang.String#valueOf(Ljava/lang/Object;)Ljava/lang/String;
-java.lang.Integer#parseInt(Ljava/lang/String;)I

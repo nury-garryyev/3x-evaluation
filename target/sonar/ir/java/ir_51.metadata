@@ -1,1 +1,0 @@
-io.mend.sast.util.MailUtil#getMailSender()Lorg/springframework/mail/javamail/JavaMailSender;

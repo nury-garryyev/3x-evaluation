@@ -1,118 +1,0 @@
-
-‚io.mend.sast.controller.MainController#testDomain(Lio/mend/sast/model/DomainTestRequest;)Lorg/springframework/http/ResponseEntity;v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java" (,"startingBlock*–
-startingBlockv
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java, (T‰
-†
-
-__unknown_file (
-%14"__id*]
-
-__unknown_file (A*?
-/
-request$io.mend.sast.model.DomainTestRequest"
-
-domainNameˆ
-…
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java- (9
-%15"
-__annotate*S
-
-__unknown_file (75
-3org.springframework.web.bind.annotation.RequestBody*#
-
-__unknown_file (
-
-%14ï
-ì
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.javaL (S?
-/
-request$io.mend.sast.model.DomainTestRequest"
-
-domainName"__annotation*#
-
-__unknown_file (
-
-%15*
-10*§
-7v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java (?"©
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java (?/
--
-%4'org.springframework.http.ResponseEntity*Á	
-8v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java (RÓ
-Ð
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java (R
-resultjava.lang.String"__id*4
-
-__unknown_file (
-
-%2java.lang.StringÐ
-Í
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java0 (=)
-%3#org.springframework.http.HttpStatus"__id*"
-
-__unknown_file (
-""ÓÐ
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java ('-
-%4'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity¿
-¼
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java (>
-%5"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*K
-
-__unknown_file (/
--
-%4'org.springframework.http.ResponseEntity*8
-
-__unknown_file (
-
-resultjava.lang.String*G
-
-__unknown_file (+
-)
-%3#org.springframework.http.HttpStatus*
-7*‘
-9v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java (QŽ‹
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java (Q
-%2java.lang.String"Wio.mend.sast.service.DomainTestService#testDomain(Ljava/lang/String;)Ljava/lang/String;*J
-
-__unknown_file (.
-,
-%0&io.mend.sast.service.DomainTestService*4
-
-__unknown_file (
-
-%1java.lang.String2testDomain(Ljava/lang/String;)*
-8*Ð
-10v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java (-Ž
-‹
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java (-,
-%0&io.mend.sast.service.DomainTestService"__id*]
-
-__unknown_file (A*?(
-&io.mend.sast.controller.MainController"
-domainTestService»¸
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java9 (P
-%1java.lang.String"Fio.mend.sast.model.DomainTestRequest#getDomainName()Ljava/lang/String;*M
-
-__unknown_file (1
-/
-request$io.mend.sast.model.DomainTestRequest2getDomainName()*
-9:©
-v
-lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/MainController.java- (S/
-request$io.mend.sast.model.DomainTestRequestB*(
-&io.mend.sast.controller.MainControllerH

@@ -1,4 +1,0 @@
-io.mend.sast.controller.cwe.cwe113#handleUnsafe3(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;
-org.springframework.http.ResponseEntity#ok()Lorg/springframework/http/ResponseEntity$BodyBuilder;
-org.springframework.http.HttpHeaders#<init>()V
-org.springframework.http.HttpHeaders#instance-init#

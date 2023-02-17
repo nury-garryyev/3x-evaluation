@@ -1,2 +1,0 @@
-io.mend.sast.controller.cwe.cwe113_jax#unsafe1(Ljava/lang/String;)Ljakarta/ws/rs/core/Response;
-jakarta.ws.rs.core.Response#status(Ljakarta/ws/rs/core/Response$Status;)Ljakarta/ws/rs/core/Response$ResponseBuilder;

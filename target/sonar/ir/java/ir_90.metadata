@@ -1,3 +1,0 @@
-io.mend.sast.controller.LogInjectionController#internalError()Lorg/springframework/http/ResponseEntity;
-java.lang.InternalError#instance-init#
-java.lang.InternalError#<init>(Ljava/lang/String;)V

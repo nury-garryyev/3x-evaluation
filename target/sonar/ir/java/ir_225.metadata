@@ -1,2 +1,0 @@
-io.mend.sast.controller.cwe.cwe501#session(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpSession;)V
-java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

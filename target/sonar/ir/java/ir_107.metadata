@@ -1,6 +1,0 @@
-io.mend.sast.controller.cwe.cwe676#safeThread()V
-io.mend.sast.controller.cwe.Task#<init>(J)V
-io.mend.sast.controller.cwe.Task#instance-init#
-java.util.concurrent.TimeUnit#sleep(J)V
-java.lang.Thread#instance-init#
-java.lang.Thread#<init>(Ljava/lang/Runnable;Ljava/lang/String;)V

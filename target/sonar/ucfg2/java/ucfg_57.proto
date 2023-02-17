@@ -1,68 +1,0 @@
-
-fio.mend.sast.controller.cwe.cwe497#getEnvironmentProperties()Lorg/springframework/http/ResponseEntity;r
-hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe497.java/ (G"1*˙
-1r
-hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe497.java7 (=Ë
-Â
-r
-hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe497.java7 (F
-%0java.util.Map"(java.lang.System#getenv()Ljava/util/Map;*0
-
-__unknown_file ("
-java.lang.System£†
-r
-hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe497.java- (6
-%1java.util.HashMap"java.util.HashMapì
-ê
-r
-hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe497.java) (G
-%2"*java.util.HashMap#<init>(Ljava/util/Map;)V*5
-
-__unknown_file (
-
-%1java.util.HashMap*1
-
-__unknown_file (
-
-%0java.util.Map—
-Œ
-r
-hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe497.java (H
-
-propertiesjava.util.Map"__id*5
-
-__unknown_file (
-
-%1java.util.HashMapÃ
-…
-r
-hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe497.java0 (=)
-%3#org.springframework.http.HttpStatus"__id*"
-
-__unknown_file (
-""œÃ
-r
-hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe497.java (#-
-%4'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityº
-π
-r
-hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe497.java (>
-%5"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*K
-
-__unknown_file (/
--
-%4'org.springframework.http.ResponseEntity*9
-
-__unknown_file (
-
-
-propertiesjava.util.Map*G
-
-__unknown_file (+
-)
-%3#org.springframework.http.HttpStatus"•
-r
-hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe497.java (?/
--
-%4'org.springframework.http.ResponseEntityB&$
-"io.mend.sast.controller.cwe.cwe497H

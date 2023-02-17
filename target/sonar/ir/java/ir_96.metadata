@@ -1,3 +1,0 @@
-io.mend.sast.controller.LogInjectionController#safeInput3(Ljakarta/servlet/http/HttpServletRequest;)V
-java.lang.String#valueOf(Ljava/lang/Object;)Ljava/lang/String;
-java.lang.String#getBytes()[B

@@ -1,6 +1,0 @@
-io.mend.sast.controller.cwe.cwe497#getSystemProperties()Lorg/springframework/http/ResponseEntity;
-org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
-java.lang.System#getProperties()Ljava/util/Properties;
-java.util.HashMap#instance-init#
-org.springframework.http.ResponseEntity#instance-init#
-java.util.HashMap#<init>(Ljava/util/Map;)V

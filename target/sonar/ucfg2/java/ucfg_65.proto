@@ -1,18 +1,0 @@
-
-Dio.mend.sast.controller.TestClass#getInputString()Ljava/lang/String;x
-nD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/ObjectController.javaH H( "1*†
-1x
-nD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/ObjectController.javaI I(ï
-ì
-x
-nD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/ObjectController.javaI I(
-%0java.lang.String"__id*R
-
-__unknown_file (6*4#
-!io.mend.sast.controller.TestClass"
-inputString"”
-x
-nD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/ObjectController.javaI I(
-
-%0java.lang.StringB%#
-!io.mend.sast.controller.TestClassH

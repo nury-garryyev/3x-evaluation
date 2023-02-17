@@ -1,98 +1,0 @@
-
-[io.mend.sast.controller.LogInjectionController#equals(Ljava/lang/String;)Ljava/lang/String;~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java ("startingBlock*˙
-2~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java" "(≈
-¬
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java" "(
-%1org.slf4j.Logger"__id*"
-
-__unknown_file (
-""„
-‡
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java" "(7
-%2java.lang.String"__concat*õ
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java" "(/
-Log safe user input: *ù
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java"2 "(7
-
-inputjava.lang.String¡æ
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java" "(8
-
-%3void"*org.slf4j.Logger#info(Ljava/lang/String;)V*4
-
-__unknown_file (
-
-%1org.slf4j.Logger*4
-
-__unknown_file (
-
-%2java.lang.String2info(Ljava/lang/String;)*
-1*…
-3~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java! !(ª∏
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java! !(
-%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*7
-
-__unknown_file (
-
-inputjava.lang.String*$
-
-__unknown_file (
-safe2equals(Ljava/lang/Object;)*
-2
-1*Ÿ
-startingBlock~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java (4§
-°
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java (
-%4"
-__annotate*T
-
-__unknown_file (86
-4org.springframework.web.bind.annotation.ResponseBody*7
-
-__unknown_file (
-
-inputjava.lang.String§
-°
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java (&
-%5"
-__annotate*T
-
-__unknown_file (86
-4org.springframework.web.bind.annotation.PathVariable*7
-
-__unknown_file (
-
-inputjava.lang.StringÙ
-Ò
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java. (3
-inputjava.lang.String"__annotation*"
-
-__unknown_file (
-
-%4*"
-
-__unknown_file (
-
-%5*
-3*Ø
-1~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java% %(4"©
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java% %(5'%
-#log injection sanitized with equals:õ
-~
-tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.java (3
-inputjava.lang.StringB20
-.io.mend.sast.controller.LogInjectionControllerH

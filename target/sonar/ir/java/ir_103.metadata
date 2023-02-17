@@ -1,7 +1,0 @@
-io.mend.sast.conf.GlobalExceptionHandler#internalError(Ljava/lang/Exception;Lorg/springframework/web/context/request/WebRequest;)Lorg/springframework/http/ResponseEntity;
-java.util.ArrayList#<init>()V
-null
-io.mend.sast.model.ErrorResponse#instance-init#
-org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
-java.util.ArrayList#instance-init#
-org.springframework.http.ResponseEntity#instance-init#
