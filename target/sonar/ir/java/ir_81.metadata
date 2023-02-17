@@ -1,0 +1,14 @@
+io.mend.sast.controller.cwe.cwe941#udpSend(Ljakarta/servlet/http/HttpServletRequest;)Ljava/lang/String;
+java.lang.String#instance-init#
+io.mend.sast.service.EchoServer#<init>()V
+io.mend.sast.service.EchoServer#instance-init#
+java.net.InetAddress#getByName(Ljava/lang/String;)Ljava/net/InetAddress;
+java.net.DatagramPacket#getData()[B
+java.net.DatagramSocket#<init>()V
+java.net.DatagramPacket#getLength()I
+java.lang.String#getBytes()[B
+java.net.DatagramPacket#instance-init#
+java.net.DatagramPacket#<init>([BI)V
+java.net.DatagramPacket#<init>([BILjava/net/InetAddress;I)V
+java.net.DatagramSocket#instance-init#
+java.lang.String#<init>([BII)V

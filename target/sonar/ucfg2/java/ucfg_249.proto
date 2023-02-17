@@ -1,0 +1,138 @@
+
+Nio.mend.sast.service.UserSearchService#getUserById(I)Lio/mend/sast/model/User;v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javaa a(""3*­
+2v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javah h(ÔÑ
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javah h(0
+%6java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*$
+
+__unknown_file (
+name2getString(Ljava/lang/String;)°­
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javah2 h(C	
+%7int".java.sql.ResultSet#getInt(Ljava/lang/String;)I*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*$
+
+__unknown_file (
+role2getInt(Ljava/lang/String;)³°
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javah h(
+%8io.mend.sast.model.User"io.mend.sast.model.UserÓ
+Ð
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javah h(D
+%9"4io.mend.sast.model.User#<init>(Ljava/lang/String;I)V*;
+
+__unknown_file (
+
+%8io.mend.sast.model.User*4
+
+__unknown_file (
+
+%6java.lang.String*'
+
+__unknown_file (
+	
+%7int"™
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javah h(E
+
+%8io.mend.sast.model.User*±
+3v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javab b(<˜
+•
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javab? b(Q
+%0java.lang.String"-java.lang.String#valueOf(I)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*"
+
+__unknown_file (
+""Ó
+Ð
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javab b(Q
+%1java.lang.String"__concat*ž
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javab b(<$"
+ SELECT * FROM \"user\" WHERE id=*’
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javab? b(Q
+
+%0java.lang.StringÕ
+Ò
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javab b(R
+sqlQueryjava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.String©
+¦
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javad d(C
+%2java.sql.Connection"Lio.mend.sast.conf.JDBCConfiguration#getJDBCConnection()Ljava/sql/Connection;*C
+
+__unknown_file ('"%
+#io.mend.sast.conf.JDBCConfigurationœ™
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javad d(U
+%3java.sql.Statement"9java.sql.Connection#createStatement()Ljava/sql/Statement;*7
+
+__unknown_file (
+
+%2java.sql.Connection2createStatement()Ú
+×
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javad d(V
+	statementjava.sql.Statement"__id*6
+
+__unknown_file (
+
+%3java.sql.Statementûø
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javae e(7
+%4java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*=
+
+__unknown_file (!
+
+	statementjava.sql.Statement*:
+
+__unknown_file (
+
+sqlQueryjava.lang.String2 executeQuery(Ljava/lang/String;)Ó
+Ð
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javae e(8
+rsjava.sql.ResultSet"__id*6
+
+__unknown_file (
+
+%4java.sql.ResultSetæã
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javag g(
+%5boolean"java.sql.ResultSet#next()Z*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet2next()*
+2
+1*þ
+1v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javak k("€
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/service/UserSearchService.javak k(
+"": 
+
+__unknown_file (
+""B*"(
+&io.mend.sast.service.UserSearchServiceH

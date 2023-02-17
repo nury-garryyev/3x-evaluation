@@ -1,0 +1,58 @@
+
+šio.mend.sast.controller.cwe.cwe73#createFileUnsafe1(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;)Ljava/lang/String;q
+gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java' '(#"startingBlock*«	
+startingBlockq
+gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java'# '(]®
+«
+q
+gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java& &('
+%0"
+__annotate*R
+
+__unknown_file (64
+2org.springframework.web.bind.annotation.GetMapping*P
+
+__unknown_file (4
+2
+request'jakarta.servlet.http.HttpServletRequestÜ
+Ù
+q
+gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java'7 '(>2
+request'jakarta.servlet.http.HttpServletRequest"__annotation*"
+
+__unknown_file (
+
+%0°
+­
+q
+gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java& &('
+%1"
+__annotate*R
+
+__unknown_file (64
+2org.springframework.web.bind.annotation.GetMapping*R
+
+__unknown_file (6
+4
+response(jakarta.servlet.http.HttpServletResponseÞ
+Û
+q
+gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java'T '(\4
+response(jakarta.servlet.http.HttpServletResponse"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ý
+1q
+gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java( (("„
+q
+gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java( ((
+create_file:§
+q
+gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java'$ '(?2
+request'jakarta.servlet.http.HttpServletRequest:©
+q
+gD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe73.java'@ '(\4
+response(jakarta.servlet.http.HttpServletResponseB%#
+!io.mend.sast.controller.cwe.cwe73H

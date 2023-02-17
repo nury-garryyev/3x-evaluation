@@ -1,0 +1,2 @@
+io.mend.sast.controller.LogInjectionController#unsafeInput(Ljakarta/servlet/http/HttpServletRequest;)V
+io.mend.sast.controller.LogInjectionController#parseBytes(Ljava/lang/String;)Ljava/lang/String;

@@ -1,0 +1,2 @@
+io.mend.sast.controller.LogInjectionController#equals(Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z

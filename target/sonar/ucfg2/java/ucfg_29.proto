@@ -1,0 +1,169 @@
+
+ëio.mend.sast.controller.cwe.cwe434#handleUploadUnsafe(Lorg/springframework/web/multipart/MultipartFile;)Lorg/springframework/http/ResponseEntity;r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java*" *(4"10*ø
+4r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java2 2(S≈
+¬
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java2 2(S
+destjava.io.File"__id*0
+
+__unknown_file (
+
+%8java.io.File¯ı
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java3 3(!
+%10void"Korg.springframework.web.multipart.MultipartFile#transferTo(Ljava/io/File;)V*U
+
+__unknown_file (9
+7
+file/org.springframework.web.multipart.MultipartFile*2
+
+__unknown_file (
+
+destjava.io.File2transferTo(Ljava/io/File;)*
+1*™	
+5r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java2! 2(5π
+∂
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java2! 2(F
+%6java.lang.String"__id*"
+
+__unknown_file (
+""¡
+æ
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java2! 2(Q
+%7java.lang.String"__concat*é
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java2! 2(F
+
+%6java.lang.String*î
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java2I 2(Q
+
+fileNamejava.lang.Stringôñ
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java2 2( 
+%8java.io.File"java.io.Fileè
+å
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java2 2(R
+%9"(java.io.File#<init>(Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%8java.io.File*4
+
+__unknown_file (
+
+%7java.lang.String*
+4*Ê
+6r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java0 0(Á‰
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java0 0((
+%5boolean"java.io.File#mkdirs()Z*=
+
+__unknown_file (!
+
+uploadDirectoryjava.io.File2mkdirs()*
+5*º
+8r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java. .(S–
+Õ
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java. .(S
+uploadDirectoryjava.io.File"__id*0
+
+__unknown_file (
+
+%2java.io.FileÁ‰
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java/ /()
+%4boolean"java.io.File#exists()Z*=
+
+__unknown_file (!
+
+uploadDirectoryjava.io.File2exists()*
+5
+6*Ê
+9r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java., .(@π
+∂
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java., .(Q
+%1java.lang.String"__id*"
+
+__unknown_file (
+""ôñ
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java.' .(+
+%2java.io.File"java.io.Fileè
+å
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java.# .(R
+%3"(java.io.File#<init>(Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%2java.io.File*4
+
+__unknown_file (
+
+%1java.lang.String*
+8*™
+10r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java+ +(÷”
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java+ +(4
+%0java.lang.String"Worg.springframework.web.multipart.MultipartFile#getOriginalFilename()Ljava/lang/String;*U
+
+__unknown_file (9
+7
+file/org.springframework.web.multipart.MultipartFile2getOriginalFilename()—
+Œ
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java+ +(5
+fileNamejava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.String*
+9*Ü	
+1r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java7$ 7(@Õ
+ 
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java7B 7(O*
+%14#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""–Õ
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java7 7(#.
+%15'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity¿
+Ω
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java7 7(P
+%16"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*L
+
+__unknown_file (0
+.
+%15'org.springframework.http.ResponseEntity*:
+
+__unknown_file (
+File uploaded successfully*H
+
+__unknown_file (,
+*
+%14#org.springframework.http.HttpStatus"¶
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java7 7(Q0
+.
+%15'org.springframework.http.ResponseEntity:≠
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe434.java*5 *(U7
+file/org.springframework.web.multipart.MultipartFileB&$
+"io.mend.sast.controller.cwe.cwe434H

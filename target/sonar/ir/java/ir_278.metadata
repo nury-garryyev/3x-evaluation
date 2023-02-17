@@ -1,0 +1,3 @@
+io.mend.sast.conf.EmbeddedTomcatConfig#legacyCookieProcessor()Lorg/apache/tomcat/util/http/CookieProcessor;
+org.apache.tomcat.util.http.LegacyCookieProcessor#instance-init#
+org.apache.tomcat.util.http.LegacyCookieProcessor#<init>()V

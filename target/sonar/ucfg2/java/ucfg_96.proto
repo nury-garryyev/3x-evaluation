@@ -1,0 +1,154 @@
+
+yio.mend.sast.websocket.WebSocketClientEndpoint#onMessage(Ljava/lang/String;Ljakarta/websocket/Session;)Ljava/lang/String;~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java ("startingBlock*Ù
+startingBlock~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java (<é
+ã
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java (
+%12"
+__annotate*;
+
+__unknown_file (
+jakarta.websocket.OnMessage*9
+
+__unknown_file (
+
+messagejava.lang.String”
+–
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java# (*
+messagejava.lang.String"__annotation*#
+
+__unknown_file (
+
+%12ó
+î
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java (
+%13"
+__annotate*;
+
+__unknown_file (
+jakarta.websocket.OnMessage*B
+
+__unknown_file (&
+$
+sessionjakarta.websocket.Session‹
+Ÿ
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java4 (;$
+sessionjakarta.websocket.Session"__annotation*#
+
+__unknown_file (
+
+%13*
+7*†
+4~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java! !()"ö
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java! !()
+
+%8java.lang.String*´
+5~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java! !(†ù
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java! !((
+%8java.lang.String"3java.io.BufferedReader#readLine()Ljava/lang/String;*B
+
+__unknown_file (&
+$
+
+bufferReadjava.io.BufferedReader2
+readLine()*
+4*Ò
+6~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java (≈
+¬
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java (
+%5org.slf4j.Logger"__id*"
+
+__unknown_file (
+""⁄
+◊
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java (.
+%6java.lang.String"__concat*ê
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java ($
+
+Received: *ü
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java' (.
+
+messagejava.lang.String¡æ
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java (/
+
+%7void"*org.slf4j.Logger#info(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%5org.slf4j.Logger*4
+
+__unknown_file (
+
+%6java.lang.String2info(Ljava/lang/String;)*
+5*∂
+7~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.javaM (S»
+≈
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.javaM (V
+%0java.io.InputStream"__id*"
+
+__unknown_file (
+""øº
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java; (L
+%1java.io.InputStreamReader"java.io.InputStreamReaderª
+∏
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java7 (W
+%2"8java.io.InputStreamReader#<init>(Ljava/io/InputStream;)V*=
+
+__unknown_file (!
+
+%1java.io.InputStreamReader*7
+
+__unknown_file (
+
+%0java.io.InputStreamπ∂
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java( (6
+%3java.io.BufferedReader"java.io.BufferedReader∂
+≥
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java$ (X
+%4"0java.io.BufferedReader#<init>(Ljava/io/Reader;)V*:
+
+__unknown_file (
+
+%3java.io.BufferedReader*=
+
+__unknown_file (!
+
+%1java.io.InputStreamReaderÎ
+Ë
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java (Y$
+
+bufferReadjava.io.BufferedReader"__id*:
+
+__unknown_file (
+
+%3java.io.BufferedReader*
+6:ù
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java (+
+messagejava.lang.String:¶
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketClientEndpoint.java, (;$
+sessionjakarta.websocket.SessionB20
+.io.mend.sast.websocket.WebSocketClientEndpointH

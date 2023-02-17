@@ -1,0 +1,1 @@
+io.mend.sast.websocket.WebSocketClientEndpoint#onClose(Ljakarta/websocket/Session;Ljakarta/websocket/CloseReason;)V

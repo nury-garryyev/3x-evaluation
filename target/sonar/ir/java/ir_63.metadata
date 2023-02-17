@@ -1,0 +1,3 @@
+io.mend.sast.controller.ObjectController#unsafe3(Ljava/lang/String;Ljakarta/servlet/http/HttpServletResponse;)V
+io.mend.sast.controller.LombokClass#instance-init#
+io.mend.sast.controller.LombokClass#<init>()V

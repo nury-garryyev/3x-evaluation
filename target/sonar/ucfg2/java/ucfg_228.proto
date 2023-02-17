@@ -1,0 +1,123 @@
+
+yio.mend.sast.websocket.WebSocketServerEndpoint#onMessage(Ljava/lang/String;Ljakarta/websocket/Session;)Ljava/lang/String;~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java ("startingBlock*Ú
+startingBlock~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java (<ç
+ä
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java (
+%9"
+__annotate*;
+
+__unknown_file (
+jakarta.websocket.OnMessage*9
+
+__unknown_file (
+
+messagejava.lang.String“
+œ
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java# (*
+messagejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%9ó
+î
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java (
+%10"
+__annotate*;
+
+__unknown_file (
+jakarta.websocket.OnMessage*B
+
+__unknown_file (&
+$
+sessionjakarta.websocket.Session‹
+Ÿ
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java4 (;$
+sessionjakarta.websocket.Session"__annotation*#
+
+__unknown_file (
+
+%10*
+7*å
+4~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java (]Å˛
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java (]
+
+%5void"Ajakarta.websocket.Session#close(Ljakarta/websocket/CloseReason;)V*B
+
+__unknown_file (&
+$
+sessionjakarta.websocket.Session*A
+
+__unknown_file (%
+#
+%3jakarta.websocket.CloseReason2&close(Ljakarta/websocket/CloseReason;)*
+1*π	
+5~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java (›
+⁄
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java. (D.
+%1(jakarta.websocket.CloseReason$CloseCodes"__id*"
+
+__unknown_file (
+""›
+⁄
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java. (S.
+%2(jakarta.websocket.CloseReason$CloseCodes"__id*"
+
+__unknown_file (
+""«ƒ
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java" (-#
+%3jakarta.websocket.CloseReason"jakarta.websocket.CloseReason§
+°
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java (\
+%4"bjakarta.websocket.CloseReason#<init>(Ljakarta/websocket/CloseReason$CloseCode;Ljava/lang/String;)V*A
+
+__unknown_file (%
+#
+%3jakarta.websocket.CloseReason*L
+
+__unknown_file (0
+.
+%2(jakarta.websocket.CloseReason$CloseCodes*$
+
+__unknown_file (
+Bye!*
+4*À
+7~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java (Ω∫
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java ("
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*9
+
+__unknown_file (
+
+messagejava.lang.String*$
+
+__unknown_file (
+quit2equals(Ljava/lang/Object;)*
+5
+1*•
+1~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java ("ü
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java (
+
+messagejava.lang.String:ù
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java (+
+messagejava.lang.String:¶
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/websocket/WebSocketServerEndpoint.java, (;$
+sessionjakarta.websocket.SessionB20
+.io.mend.sast.websocket.WebSocketServerEndpointH

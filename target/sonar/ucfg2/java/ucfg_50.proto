@@ -1,0 +1,90 @@
+
+Lio.mend.sast.conf.JDBCConfiguration#getJDBCConnection()Ljava/sql/Connection;s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java (."7*ò
+2s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java (Nò
+ï
+s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java (N9%
+#io.mend.sast.conf.JDBCConfiguration"
+JDBCConnection"__id*7
+
+__unknown_file (
+
+%4java.sql.Connection*
+1*È
+4s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java! (.º
+·
+s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java= (@
+%2java.lang.String"__id*"
+
+__unknown_file (
+""º
+·
+s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.javaH (M
+%3java.lang.String"__id*"
+
+__unknown_file (
+""Î
+Ë
+s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java! (N
+%4java.sql.Connection"qjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;*6
+
+__unknown_file ("
+java.sql.DriverManager*4
+
+__unknown_file (
+
+%2java.lang.String*"
+
+__unknown_file (
+sa*4
+
+__unknown_file (
+
+%3java.lang.String*
+2*­
+5s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java (­
+ª
+s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java (/
+%1java.lang.Class"<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;*/
+
+__unknown_file ("
+java.lang.Class*-
+
+__unknown_file (
+org.h2.Driver*
+4*õ
+7s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java (ò
+ï
+s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java (
+%0java.sql.Connection"__id*W
+
+__unknown_file (;*9%
+#io.mend.sast.conf.JDBCConfiguration"
+JDBCConnection*
+5
+1*‚
+1s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java (ò
+ï
+s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java (
+%7java.sql.Connection"__id*W
+
+__unknown_file (;*9%
+#io.mend.sast.conf.JDBCConfiguration"
+JDBCConnection"’
+s
+iD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/conf/JDBCConfiguration.java (
+
+%7java.sql.ConnectionB'"%
+#io.mend.sast.conf.JDBCConfigurationH

@@ -1,0 +1,4 @@
+io.mend.sast.controller.cwe.cwe113#handleUnsafe4(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#ok()Lorg/springframework/http/ResponseEntity$BodyBuilder;
+jakarta.servlet.http.Cookie#<init>(Ljava/lang/String;Ljava/lang/String;)V
+jakarta.servlet.http.Cookie#instance-init#

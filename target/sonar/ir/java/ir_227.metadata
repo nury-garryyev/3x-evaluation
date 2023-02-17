@@ -1,0 +1,3 @@
+io.mend.sast.controller.cwe.cwe73#isValidFileExtension(Ljava/lang/String;)Z
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.String#lastIndexOf(I)I

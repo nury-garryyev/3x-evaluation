@@ -1,0 +1,4 @@
+io.mend.sast.controller.GeneralSanitizerController#safe7(Ljava/lang/String;)V
+io.mend.sast.controller.GeneralSanitizerController#sqli(Ljava/lang/String;)V
+java.lang.Boolean#parseBoolean(Ljava/lang/String;)Z
+java.lang.String#valueOf(Ljava/lang/Object;)Ljava/lang/String;

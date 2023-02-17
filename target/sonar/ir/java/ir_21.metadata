@@ -1,0 +1,5 @@
+io.mend.sast.controller.GeneralSanitizerController#safe4(Ljava/lang/String;)V
+io.mend.sast.controller.GeneralSanitizerController#sqli(Ljava/lang/String;)V
+java.security.MessageDigest#getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+java.util.Arrays#toString([B)Ljava/lang/String;
+java.lang.String#getBytes()[B

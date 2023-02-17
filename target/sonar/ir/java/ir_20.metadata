@@ -1,0 +1,4 @@
+io.mend.sast.controller.GeneralSanitizerController#safe3(Ljava/lang/String;)V
+java.util.Locale#forLanguageTag(Ljava/lang/String;)Ljava/util/Locale;
+io.mend.sast.controller.GeneralSanitizerController#sqli(Ljava/lang/String;)V
+java.util.Locale#toString()Ljava/lang/String;

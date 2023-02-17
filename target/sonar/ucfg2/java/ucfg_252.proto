@@ -1,0 +1,176 @@
+
+¿io.mend.sast.controller.cwe.cwe113#handleUnsafe3(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java!" !(/"startingBlock*–
+startingBlocks
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java!/ !(áØ
+¨
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java (
+%6"
+__annotate*R
+
+__unknown_file (64
+2org.springframework.web.bind.annotation.GetMapping*P
+
+__unknown_file (4
+2
+request'jakarta.servlet.http.HttpServletRequest≥
+∞
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java   (/
+%7"
+__annotate*V
+
+__unknown_file (:8
+6org.springframework.web.bind.annotation.RequestMapping*P
+
+__unknown_file (4
+2
+request'jakarta.servlet.http.HttpServletRequestÅ
+˛
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java!C !(J2
+request'jakarta.servlet.http.HttpServletRequest"__annotation*"
+
+__unknown_file (
+
+%6*"
+
+__unknown_file (
+
+%7±
+Æ
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java (
+%8"
+__annotate*R
+
+__unknown_file (64
+2org.springframework.web.bind.annotation.GetMapping*R
+
+__unknown_file (6
+4
+response(jakarta.servlet.http.HttpServletResponseµ
+≤
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java   (/
+%9"
+__annotate*V
+
+__unknown_file (:8
+6org.springframework.web.bind.annotation.RequestMapping*R
+
+__unknown_file (6
+4
+response(jakarta.servlet.http.HttpServletResponseÉ
+Ä
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java!` !(h4
+response(jakarta.servlet.http.HttpServletResponse"__annotation*"
+
+__unknown_file (
+
+%8*"
+
+__unknown_file (
+
+%9õ
+ò
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java!j !(w
+%10"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.RequestParam*9
+
+__unknown_file (
+
+refererjava.lang.String»
+≈
+s
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java! !(Ü
+refererjava.lang.String"__annotation*#
+
+__unknown_file (
+
+%10*
+1*Â
+1r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java" "(/…∆
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java"" "(-*
+%0$org.springframework.http.HttpHeaders"$org.springframework.http.HttpHeaders˜
+Ù
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java" "(/
+%1".org.springframework.http.HttpHeaders#<init>()V*H
+
+__unknown_file (,
+*
+%0$org.springframework.http.HttpHeaders¯
+ı
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java" "(0/
+headers$org.springframework.http.HttpHeaders"__id*H
+
+__unknown_file (,
+*
+%0$org.springframework.http.HttpHeaders≤Ø
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java# #('
+
+%2void"Oorg.springframework.http.HttpHeaders#add(Ljava/lang/String;Ljava/lang/String;)V*M
+
+__unknown_file (1
+/
+headers$org.springframework.http.HttpHeaders*'
+
+__unknown_file (	
+Referer*9
+
+__unknown_file (
+
+refererjava.lang.String2)add(Ljava/lang/String;Ljava/lang/String;)ﬁ
+€
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java$ $("9
+%33org.springframework.http.ResponseEntity$BodyBuilder"aorg.springframework.http.ResponseEntity#ok()Lorg/springframework/http/ResponseEntity$BodyBuilder;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity¨©
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java$ $(39
+%43org.springframework.http.ResponseEntity$BodyBuilder"ûorg.springframework.http.ResponseEntity$HeadersBuilder#headers(Lorg/springframework/http/HttpHeaders;)Lorg/springframework/http/ResponseEntity$HeadersBuilder;*W
+
+__unknown_file (;
+9
+%33org.springframework.http.ResponseEntity$BodyBuilder*M
+
+__unknown_file (1
+/
+headers$org.springframework.http.HttpHeaders2/headers(Lorg/springframework/http/HttpHeaders;)Ω∫
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java$ $(G-
+%5'org.springframework.http.ResponseEntity"uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*W
+
+__unknown_file (;
+9
+%43org.springframework.http.ResponseEntity$BodyBuilder*+
+
+__unknown_file (
+Referer set2body(Ljava/lang/Object;)"•
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java$ $(H/
+-
+%5'org.springframework.http.ResponseEntity:®
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java!0 !(K2
+request'jakarta.servlet.http.HttpServletRequest:™
+r
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java!L !(i4
+response(jakarta.servlet.http.HttpServletResponse:í
+s
+hD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113.java!j !(Ü
+refererjava.lang.StringB&$
+"io.mend.sast.controller.cwe.cwe113H

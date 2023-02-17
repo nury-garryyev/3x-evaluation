@@ -1,0 +1,5 @@
+io.mend.sast.service.UserSearchService#getUserById(I)Lio/mend/sast/model/User;
+io.mend.sast.model.User#instance-init#
+java.lang.String#valueOf(I)Ljava/lang/String;
+io.mend.sast.model.User#<init>(Ljava/lang/String;I)V
+io.mend.sast.conf.JDBCConfiguration#getJDBCConnection()Ljava/sql/Connection;

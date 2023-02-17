@@ -1,0 +1,69 @@
+
+_io.mend.sast.controller.LogInjectionController#parseBytes(Ljava/lang/String;)Ljava/lang/String;~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javad d("5*Ü
+3~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javah h(ÎË
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javah h("
+%3java.lang.StringBuilder":java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;*?
+
+__unknown_file (#
+!
+outputjava.lang.StringBuilder*"
+
+__unknown_file (
+""2	append(C)*
+3
+1*ƒ
+4~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javag g(õò
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javag g(%
+%2byte[]"java.lang.String#getBytes()[B*7
+
+__unknown_file (
+
+inputjava.lang.String2
+getBytes()*
+3
+1*ž
+5~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javae e(2»¸
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javae# e(0
+%0java.lang.StringBuilder"java.lang.StringBuilderé
+æ
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javae e(2
+%1"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderé
+æ
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javae e(3!
+outputjava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%0java.lang.StringBuilder*
+4*Á
+1~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javak k(ž›
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javak k( 
+%4java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*?
+
+__unknown_file (#
+!
+outputjava.lang.StringBuilder2
+toString()"š
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javak k(!
+
+%4java.lang.String:›
+~
+tD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/LogInjectionController.javad d(*
+inputjava.lang.StringB20
+.io.mend.sast.controller.LogInjectionController

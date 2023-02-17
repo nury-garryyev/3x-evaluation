@@ -1,0 +1,2 @@
+io.mend.sast.controller.cwe.cwe15#unsafe(Ljava/lang/String;)V
+java.lang.System#setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

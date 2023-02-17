@@ -1,0 +1,141 @@
+
+_io.mend.sast.controller.cwe.cwe113_jax#unsafe1(Ljava/lang/String;)Ljakarta/ws/rs/core/Response;v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java ("startingBlock*¿
+startingBlockv
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java (=ù
+ö
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java (
+%6"
+__annotate*1
+
+__unknown_file (
+jakarta.ws.rs.GET*7
+
+__unknown_file (
+
+inputjava.lang.Stringú
+÷
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java (
+%7"
+__annotate*2
+
+__unknown_file (
+jakarta.ws.rs.Path*7
+
+__unknown_file (
+
+inputjava.lang.Stringþ
+û
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java (!
+%8"
+__annotate*6
+
+__unknown_file (
+jakarta.ws.rs.Produces*7
+
+__unknown_file (
+
+inputjava.lang.Stringÿ
+ü
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java (/
+%9"
+__annotate*7
+
+__unknown_file (
+jakarta.ws.rs.PathParam*7
+
+__unknown_file (
+
+inputjava.lang.String´
+±
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java7 (<
+inputjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*"
+
+__unknown_file (
+
+%7*"
+
+__unknown_file (
+
+%8*"
+
+__unknown_file (
+
+%9*
+1*Œ
+1v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java (Ï
+Ì
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java ('(
+%0"jakarta.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""Ï
+Ì
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java (*(
+%1"jakarta.ws.rs.core.Response$Status"__id*"
+
+__unknown_file (
+""ª
+§
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java (+1
+%2+jakarta.ws.rs.core.Response$ResponseBuilder"ujakarta.ws.rs.core.Response#status(Ljakarta/ws/rs/core/Response$Status;)Ljakarta/ws/rs/core/Response$ResponseBuilder;*;
+
+__unknown_file ("
+jakarta.ws.rs.core.Response*F
+
+__unknown_file (*
+(
+%1"jakarta.ws.rs.core.Response$Status•’
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java ('1
+%3+jakarta.ws.rs.core.Response$ResponseBuilder"…jakarta.ws.rs.core.Response$ResponseBuilder#header(Ljava/lang/String;Ljava/lang/Object;)Ljakarta/ws/rs/core/Response$ResponseBuilder;*O
+
+__unknown_file (3
+1
+%2+jakarta.ws.rs.core.Response$ResponseBuilder*%
+
+__unknown_file (	
+input*7
+
+__unknown_file (
+
+inputjava.lang.String2,header(Ljava/lang/String;Ljava/lang/Object;)¸µ
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java (!1
+%4+jakarta.ws.rs.core.Response$ResponseBuilder"sjakarta.ws.rs.core.Response$ResponseBuilder#entity(Ljava/lang/Object;)Ljakarta/ws/rs/core/Response$ResponseBuilder;*O
+
+__unknown_file (3
+1
+%3+jakarta.ws.rs.core.Response$ResponseBuilder*&
+
+__unknown_file (
+
+unsafe2entity(Ljava/lang/Object;)ÊÇ
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java (!
+%5jakarta.ws.rs.core.Response"Pjakarta.ws.rs.core.Response$ResponseBuilder#build()Ljakarta/ws/rs/core/Response;*O
+
+__unknown_file (3
+1
+%4+jakarta.ws.rs.core.Response$ResponseBuilder2build()"
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java (#
+!
+%5jakarta.ws.rs.core.Response:“
+v
+lD:/Projects/DefensePoint/WhiteSource/3x-evaluation/src/main/java/io/mend/sast/controller/cwe/cwe113_jax.java (<
+inputjava.lang.StringB*(
+&io.mend.sast.controller.cwe.cwe113_jaxH

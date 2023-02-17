@@ -1,0 +1,2 @@
+io.mend.sast.controller.LogInjectionController#safeObject2(Lio/mend/sast/model/SafeObject;)V
+io.mend.sast.controller.LogInjectionController#log(Ljava/lang/Object;)V

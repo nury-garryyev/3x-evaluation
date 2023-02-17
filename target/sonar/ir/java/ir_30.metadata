@@ -1,0 +1,2 @@
+io.mend.sast.controller.InfiniteLoopController#method2(Ljava/lang/String;)Ljava/lang/String;
+io.mend.sast.controller.InfiniteLoopController#method1(Ljava/lang/String;)Ljava/lang/String;

@@ -1,0 +1,2 @@
+io.mend.sast.conf.JerseyConfig#<init>()V
+io.mend.sast.conf.JerseyConfig#registerEndpoints()V

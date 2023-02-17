@@ -1,0 +1,7 @@
+organization=nury-garryyev
+projectKey=3x-evaluation
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.37512
+dashboardUrl=https://sonarcloud.io/dashboard?id=3x-evaluation
+ceTaskId=AYZKA-IMc4nEE5XeE5EC
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYZKA-IMc4nEE5XeE5EC

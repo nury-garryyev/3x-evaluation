@@ -1,0 +1,5 @@
+io.mend.sast.controller.cwe.cwe113_jax#unsafe4(Ljava/lang/String;)Ljakarta/ws/rs/core/Response;
+org.glassfish.jersey.message.internal.OutboundMessageContext#instance-init#
+org.glassfish.jersey.message.internal.OutboundJaxrsResponse$Builder#instance-init#
+org.glassfish.jersey.message.internal.OutboundJaxrsResponse$Builder#<init>(Lorg/glassfish/jersey/message/internal/OutboundMessageContext;)V
+org.glassfish.jersey.message.internal.OutboundMessageContext#<init>()V

@@ -1,0 +1,4 @@
+io.mend.sast.controller.cwe.cwe113_jax#unsafe3(Ljava/lang/String;)Ljakarta/ws/rs/core/Response;
+jakarta.ws.rs.core.Response#status(Ljakarta/ws/rs/core/Response$Status;)Ljakarta/ws/rs/core/Response$ResponseBuilder;
+jakarta.ws.rs.core.NewCookie#<init>(Ljava/lang/String;Ljava/lang/String;)V
+jakarta.ws.rs.core.NewCookie#instance-init#

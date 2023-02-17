@@ -1,0 +1,3 @@
+io.mend.sast.controller.GeneralSanitizerController#safe2(Ljava/lang/String;)V
+io.mend.sast.controller.GeneralSanitizerController#sqli(Ljava/lang/String;)V
+io.mend.sast.controller.GeneralSanitizerController$Level#valueOf(Ljava/lang/String;)Lio/mend/sast/controller/GeneralSanitizerController$Level;

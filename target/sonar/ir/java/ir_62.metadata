@@ -1,0 +1,3 @@
+io.mend.sast.controller.ObjectController#unsafe2(Ljava/lang/String;Ljakarta/servlet/http/HttpServletResponse;)V
+io.mend.sast.controller.TestClass#<init>()V
+io.mend.sast.controller.TestClass#instance-init#

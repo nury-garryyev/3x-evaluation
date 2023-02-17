@@ -1,0 +1,5 @@
+io.mend.sast.controller.cwe.cwe565#getUserSafe(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
+io.mend.sast.service.UserSearchService#getUserById(I)Lio/mend/sast/model/User;
+org.springframework.http.ResponseEntity#instance-init#
