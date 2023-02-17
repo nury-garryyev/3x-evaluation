@@ -1,34 +1,58 @@
 package io.mend.sast.controller.cwe;
 
 import io.mend.sast.model.Credentials;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 @RestController
 @RequestMapping("/cwe400")
 public class cwe400_redos {
 
-    private static final Logger logger = LoggerFactory.getLogger(cwe400_redos.class);
 
     @PostMapping(value = "/regex")
     public void regex(@RequestBody Credentials credentials) {
 
-        // ReDoS issue has been mitigated in Java 9 and later
-        // by having additional protections in their implementation of regular expression evaluation.
+        String regex = credentials.getUsername();
+        String input = credentials.getPassword();
 
-        String regex = credentials.getUsername(); // "(a|aa)+"
-        String input = credentials.getPassword(); // "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaX"
+//        regex = "(h|h|ih(((i|a|c|c|a|i|i|j|b|a|i|b|a|a|j))+h)ahbfhba|c|i)*";
+//        input = "hchcchicihcchciiicichhcichcihcchiihichiciiiihhcchicchhcihchcihiihciichhccciccichcichiihcchcihhicchcciicchcccihiiihhihihihi"+
+//        "chicihhcciccchihhhcchichchciihiicihciihcccciciccicciiiiiiiiicihhhiiiihchccchchhhhiiihchihcccchhhiiiiiiiicicichicihcciciihichhhhchihciiihhiccccccciciihh"+
+//        "ichiccchhicchicihihccichicciihcichccihhiciccccccccichhhhihihhcchchihihiihhihihihicichihiiiihhhhihhhchhichiicihhiiiiihchccccchichci";
+
 
         Pattern.matches(regex, input); // SINK
+    }
 
-//        Pattern.matches(regex, "string"); // SINK
-//        Pattern.compile(regex).matcher("string").matches(); // SINK
-//        "string".matches(regex); // SINK
-//        "string".replaceAll(regex,"replacement"); // SINK
-//        "string".replaceFirst(regex,"replacement"); // SINK
-//        "string".split(regex); // SINK
+    @PostMapping(value = "/regex2")
+    public void regex2(HttpServletRequest request) {
+
+        String regex = request.getParameter("regex");
+        String input = request.getParameter("input");
+
+        Pattern.matches(regex, input); // SINK
+        input.matches(regex); // SINK
+        input.replaceAll(regex,"replacement"); // SINK
+        input.replaceFirst(regex,"replacement"); // SINK
+        input.split(regex); // SINK
+        input.split(regex, 1); // SINK
+
+        input.matches(Pattern.quote(regex)); // SAFE
+    }
+
+    @GetMapping(value = "/regex3")
+    public void regex3(HttpServletRequest request) {
+
+        String regex = request.getParameter("regex");
+        String input = request.getParameter("input");
+
+        Pattern.compile(regex).matcher(input).matches(); // SINK
+
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(input);
+        matcher.matches(); // SINK
     }
 }

@@ -1,22 +1,22 @@
 package io.mend.sast.controller;
 
 import io.mend.sast.model.SafeObject;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import io.mend.sast.service.GreetingService;
+import jakarta.servlet.http.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-
+import org.springframework.web.bind.annotation.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 @Controller
 @RequestMapping("xss")
 public class XssController {
+
+    @Autowired
+    GreetingService greetingService;
 
     @GetMapping(value = "/safeInput")
     public void safeInput(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -71,5 +71,29 @@ public class XssController {
 
         // Unsafe
         return new ResponseEntity<>(input, HttpStatus.OK); // SINK
+    }
+
+    @GetMapping(value = "/unsafe3")
+    public void unsafe3(HttpServletRequest request, HttpServletResponse response) throws IOException {
+
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+
+        String input = request.getParameter("input");
+
+        // Unsafe
+        out.println(greetingService.buildGreetingMessage(input).getMessage()); // SINK
+    }
+
+    @GetMapping(value = "/unsafe4")
+    public void unsafe4(HttpServletRequest request, HttpServletResponse response) throws IOException {
+
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+
+        String input = request.getParameter("input");
+
+        // Unsafe
+        out.println(new GreetingService().buildGreetingMessage(input).getMessage()); // SINK
     }
 }

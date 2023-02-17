@@ -19,7 +19,8 @@ public class cwe209stackTrace {
             throw new Exception();
         } catch (Exception e) {
             StringWriter stringWriter = new StringWriter();
-            e.printStackTrace(new PrintWriter(stringWriter));
+            PrintWriter printWriter = new PrintWriter(stringWriter);
+            e.printStackTrace(printWriter); // SOURCE
             String stackTrace = stringWriter.toString();
             return new ResponseEntity<>(stackTrace, HttpStatus.INTERNAL_SERVER_ERROR); // SINK
         }
@@ -30,7 +31,7 @@ public class cwe209stackTrace {
         try {
             throw new Exception();
         } catch (Exception e) {
-            return new ResponseEntity<>(e.toString(), HttpStatus.INTERNAL_SERVER_ERROR); // SINK
+            return new ResponseEntity<>(e.toString(), HttpStatus.INTERNAL_SERVER_ERROR); // SOURCE and SINK
         }
     }
 

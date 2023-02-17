@@ -1,5 +1,7 @@
 package io.mend.sast.conf;
 
+import io.mend.sast.controller.ValidationJaxJakartaController;
+import io.mend.sast.controller.XssJaxController;
 import io.mend.sast.controller.cwe.cwe113_jax;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.servlet.ServletProperties;
@@ -15,5 +17,7 @@ public class JerseyConfig extends ResourceConfig {
 
     private void registerEndpoints() {
         register(cwe113_jax.class);
+        register(ValidationJaxJakartaController.class);
+        register(XssJaxController.class);
     }
 }

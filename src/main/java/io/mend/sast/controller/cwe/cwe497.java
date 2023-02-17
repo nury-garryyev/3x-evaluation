@@ -1,7 +1,5 @@
 package io.mend.sast.controller.cwe;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -10,9 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 
 @Controller
 @RequestMapping("/cwe497")
@@ -30,5 +25,21 @@ public class cwe497 {
         return new ResponseEntity<>(properties, HttpStatus.OK); // SINK
     }
 
+    @GetMapping("/system_property1")
+    public ResponseEntity<String> getSystemProperties1() {
+        String p = System.getProperty("os.name");
+        return new ResponseEntity<String>(p, HttpStatus.OK); // SINK
+    }
 
+    @GetMapping("/system_property2")
+    public ResponseEntity<String> getSystemProperties2() {
+        String p = System.getProperty("os.name", "default");
+        return new ResponseEntity<String>(p, HttpStatus.OK); // SINK
+    }
+
+    @GetMapping("/system_env1")
+    public ResponseEntity<String> getEnvironmentProperties1() {
+        String p = System.getenv("PATH");
+        return new ResponseEntity<String>(p, HttpStatus.OK); // SINK
+    }
 }

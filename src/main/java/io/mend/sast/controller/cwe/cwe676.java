@@ -14,8 +14,8 @@ public class cwe676 {
 
     @GetMapping(value = "/unsafeFinalize")
     public void unsafeFinalize() {
-        // System.runFinalizersOnExit(true);
-        // Runtime.runFinalizersOnExit(true);
+          //System.runFinalizersOnExit(true);
+          //Runtime.runFinalizersOnExit(true);
     }
 
     @GetMapping(value = "/safeThread")
